@@ -1,11 +1,22 @@
-# Welcome to api automation project!
+# API java rest assured
 
-# How to Run an Automation Project Locally
+## Prerequisites
 
-## Things to Install (* = optional)
-- **Maven v. 3.9+** - [Maven – Installing Apache Maven](https://maven.apache.org/install.html)
-- **Java 11** (All Providers are allowed except Oracle, Correto by default) - Install through IDE (Settings -> Project Structure -> Project -> SDK: Add JDK -> Choose version and set up language level - 11)
-- **Git** - [Git - Downloads](https://git-scm.com/downloads)
+To get started, ensure you have the following installed:
+
+- **Maven v. 3.9+** (Optional)  
+  [Install Apache Maven](https://maven.apache.org/install.html)
+
+- **Java 11**  
+  Any provider is acceptable (e.g., OpenJDK). Install through your IDE:
+  - Go to Settings -> Project Structure -> Project -> SDK.
+  - Add JDK, choose version 11, and set up the language level.
+
+- **Git**  
+  [Download Git](https://git-scm.com/downloads)
+
+- **Allure Report** (Optional)  
+  [Install Allure Report for macOS](https://docs.qameta.io/allure/#_installing_a_tool)
 - **Allure*** - [Allure Report Docs — Install Allure Report for macOS](https://docs.qameta.io/allure/#_installing_a_tool)
 
 ## How to Run It?
