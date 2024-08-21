@@ -15,7 +15,8 @@ To get started, ensure you have the following installed:
 - **Git**  
   [Download Git](https://git-scm.com/downloads)
 
-- **Allure*** - [Allure Report Docs — Install Allure Report for macOS](https://docs.qameta.io/allure/#_installing_a_tool)
+- **Allure**
+  [Allure Report Docs — Install Allure Report for macOS](https://docs.qameta.io/allure/#_installing_a_tool)
 
 ## How to Run It?
 
