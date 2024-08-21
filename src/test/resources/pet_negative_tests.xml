@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Pet negative tests" verbose="1">
+    <test name="Pet_negative_tests">
+        <classes>
+            <class name="tests.pet.PetNegativeTests">
+                <methods>
+                    <include name="addPetToStoreWithExistingId">
+                    </include>
+                    <include name="updateNoExistingPet">
+                    </include>
+                    <include name="getNoExistingPetById">
+                    </include>
+                    <include name="updateNoExistingPetInStore">
+                    </include>
+                    <include name="deleteNoExistingPet">
+                    </include>
+                    <include name="getAddPetToStoreRequest">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

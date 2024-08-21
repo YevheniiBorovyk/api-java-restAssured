@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="User tests" verbose="1">
+    <test name="User_tests">
+        <classes>
+            <class name="tests.user.UserTests">
+                <methods>
+                    <include name="createUser">
+                    </include>
+                    <include name="createListOfUsers">
+                    </include>
+                    <include name="logIn">
+                    </include>
+                    <include name="logOut">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

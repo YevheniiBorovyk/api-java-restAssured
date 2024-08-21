@@ -1,0 +1,9 @@
+### IntelliJ IDEA ###
+out/
+.idea/
+target/
+allure-report/
+allure-results/
+### Mac OS ###
+.DS_Store
+.allure/

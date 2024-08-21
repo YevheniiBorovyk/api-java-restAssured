@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Store tests" verbose="1">
+    <test name="Store_tests">
+        <classes>
+            <class name="tests.store.StoreTests">
+                <methods>
+                    <include name="getPetInventory">
+                    </include>
+                    <include name="createStoreOrder">
+                    </include>
+                    <include name="getStoreOrderById">
+                    </include>
+                    <include name="deleteStoreOrderById">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

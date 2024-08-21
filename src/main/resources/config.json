@@ -1,0 +1,7 @@
+{
+  "pet-store": {
+    "dev": "https://*",
+    "rc": "https://*",
+    "prod": "https://petstore.swagger.io/v2"
+  }
+}
