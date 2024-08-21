@@ -24,26 +24,20 @@ To get started, ensure you have the following installed:
 You have 2 ways of running it:
 
 1. **Run from IDE:**
-    - Choose the suite, open the context menu inside it - if you run for the first time, choose ‘More Run/Debug' - ‘Modify run Configuration’.
-    - You’ll have the modal panel with run configurations. The only thing you need to do is to add the environment you want to run for. Add the command in your VM options and apply & save it:
-
-    ```bash
-    -DtestEnv=envName
-    ```
-
-   **EnvNames:** prod,
 
     - You’ll see your run results in the 'Run' section.
     - When you have already set it up - just click ‘Run' afterwards. If you don’t specify the environment, it’ll automatically choose the prod environment.
+    - You can change env in this class `SpecificationFactory`
 
 2. **Run through Maven:**
 
     ```bash
     mvn clean test -DtestSuite=suiteName -DtestEnv=envName
-    ```
-
+    ```    
     - You’ll see your run results in the console.
-    
+
+
+
     ```bash
     allure serve target/allure-results
     ```
